@@ -50,6 +50,7 @@ function checkAnagramValidity(word: string, inputWordFrequencyArray: Record<stri
 
 // Test cases
 console.log(checkAnagrams('', ['hello', 'am', 'aaaa', '']));
+console.log(checkAnagrams('a', ['aaaa', '', 'a', 'aa']));
 console.log(checkAnagrams('ate', ["ate", "eat", "tea", "dog", "do", "god", "goo", "go", "good"]));
 console.log(checkAnagrams("oogd", ["ate", "eat", "tea", "dog", "do", "god", "goo", "go", "good"]));
 console.log(filterValidWords("silent", ["listen", "tinsel", "enlist", "inlets", "slit", "silent"]));
